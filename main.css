@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #0d0d1a;
+  color: white;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+select {
+  padding: 5px;
+  border-radius: 8px;
+  background-color: #1e1e2f;
+  color: white;
+  border: 1px solid #555;
+}
+
+.auth button {
+  margin-left: 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 12px;
+  background-color: #b89eff;
+  color: #fff;
+  cursor: pointer;
+}
+
+main.characters {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 40px 20px;
+}
+
+.card {
+  background-color: #1e1e2f;
+  border-radius: 20px;
+  padding: 20px;
+  max-width: 270px;
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.card h2 {
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.card p {
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+footer {
+  padding: 20px;
+  text-align: center;
+  border-top: 5px solid #333;
+  margin-top: 30px;
+}
+
+footer .socials a {
+  margin: 0 10px;
+  color: #ccc;
+  text-decoration: none;
+}
